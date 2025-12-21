@@ -1,12 +1,12 @@
 # Agent Skills for Context Engineering
 
-A comprehensive, Skills for Context Engineering Skills focused on context open collection of Agent production-grade AI agent engineering principles for building teach the art and science of curating context to maximize agent effectiveness across any agent platform.
+A comprehensive, open collection of Agent Skills focused on context engineering principles for building production-grade AI agent systems. These skills teach the art and science of curating context to maximize agent effectiveness across any agent platform.
 
 ## What is Context Engineering?
 
-Context engineering is the systems. These skills discipline of managing the language inference model's context window. Unlike prompt engineering, which focuses on crafting effective instructions, context engineering addresses the holistic tokens that populate a curation of all information that enters the model's limited attention budget: system prompts, tool definitions, retrieved documents, message history, and tool outputs.
+Context engineering is the discipline of managing the language model's context window. Unlike prompt engineering, which focuses on crafting effective instructions, context engineering addresses the holistic curation of all information that enters the model's limited attention budget: system prompts, tool definitions, retrieved documents, message history, and tool outputs.
 
-The fundamental challenge is that context windows are not raw token capacity but constrained by attention mechanics. As context length increases, models exhibit the "lost-in predictable degradation patterns:-the-middle" phenomenon, U-shaped attention curves, and attention scarcity. Effective context engineering means finding the high-signal tokens that maximize the likelihood smallest possible set of of desired outcomes.
+The fundamental challenge is that context windows are constrained not by raw token capacity but by attention mechanics. As context length increases, models exhibit predictable degradation patterns: the "lost-in-the-middle" phenomenon, U-shaped attention curves, and attention scarcity. Effective context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of desired outcomes.
 
 ## Skills Overview
 
@@ -21,11 +21,11 @@ These skills establish the foundational understanding required for all subsequen
 
 ### Architectural Skills
 
-These skills cover the patterns and structures for building| Skill | Description |
-|-------|-------------|
-| [multi-agent-patterns]( effective agent systems.
+These skills cover the patterns and structures for building effective agent systems.
 
-skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
+| Skill | Description |
+|-------|-------------|
+| [multi-agent-patterns](skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
 | [memory-systems](skills/memory-systems/) | Design short-term, long-term, and graph-based memory architectures |
 | [tool-design](skills/tool-design/) | Build tools that agents can use effectively |
 
@@ -56,7 +56,7 @@ Scripts and examples demonstrate concepts using Python pseudocode that works acr
 
 ### For Claude Code
 
-Install skills by referencing this repository or by copying skill folders into your configured skills on context engineering tasks directory. When working, activate relevant skills to load their instructions.
+Install skills by referencing this repository or by copying skill folders into your configured skills directory. When working on context engineering tasks, activate relevant skills to load their instructions.
 
 ### For Cursor
 
@@ -64,11 +64,11 @@ Copy skill content into `.cursorrules` or create project-specific rules files. T
 
 ### For Custom Implementations
 
-Extract the principles and patterns from any skill and implement them in your agent framework. The skills are deliberately platform-agn
+Extract the principles and patterns from any skill and implement them in your agent framework. The skills are deliberately platform-agnostic.
 
-Each skill follows the Agent Skills specificationostic.
+## Structure
 
-## Structure:
+Each skill follows the Agent Skills specification:
 
 ```
 skill-name/
@@ -83,8 +83,8 @@ See the [template](template/) folder for the canonical skill structure.
 
 This repository follows the Agent Skills open development model. Contributions are welcome from the broader ecosystem. When contributing:
 
-1. Follow the skill template structure clear, actionable instructions
-2. Provide
+1. Follow the skill template structure
+2. Provide clear, actionable instructions
 3. Include working examples where appropriate
 4. Document trade-offs and potential issues
 5. Keep SKILL.md under 500 lines for optimal performance
@@ -93,6 +93,6 @@ This repository follows the Agent Skills open development model. Contributions a
 
 MIT License - see LICENSE file for details.
 
- principles in these skills are derived from research and production experience at leading AI labs and## References
+## References
 
-The framework developers. Each skill includes references to the underlying research and case studies that inform its recommendations.
+The principles in these skills are derived from research and production experience at leading AI labs and framework developers. Each skill includes references to the underlying research and case studies that inform its recommendations.
