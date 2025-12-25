@@ -101,7 +101,7 @@ npm test  # Run 19 passing tests
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering&type=timeline&legend=top-left)](https://www.star-history.com/#muratcankoylan/Agent-Skills-for-Context-Engineering&type=timeline&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)](https://www.star-history.com/#muratcankoylan/Agent-Skills-for-Context-Engineering&type=date&legend=top-left)
 
 ## Structure
 
@@ -126,7 +126,7 @@ This repository follows the Agent Skills open development model. Contributions a
 4. Document trade-offs and potential issues
 5. Keep SKILL.md under 500 lines for optimal performance
 
-Feel free to reach out to [Muratcan Koylan](https://x.com/koylanai) for collaboration and any requests.
+Feel free to contact [Muratcan Koylan](https://x.com/koylanai) for collaboration opportunities or any inquiries.
 
 [![Sponsor via GitHub](https://img.shields.io/badge/Sponsor-muratcankoylan-pink?logo=github-sponsors&style=for-the-badge)](https://github.com/sponsors/muratcankoylan)
 
