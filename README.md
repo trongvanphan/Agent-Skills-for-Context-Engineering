@@ -64,11 +64,24 @@ Scripts and examples demonstrate concepts using Python pseudocode that works acr
 
 ## Usage
 
-### For Claude Code
+### Usage with Claude Code
 
-Install skills by referencing this repository or by copying skill folders into your configured skills directory. When working on context engineering tasks, activate relevant skills to load their instructions.
+This repository is configured as a **Claude Code Plugin**, allowing you to load context engineering skills directly into your agent development environment.
 
-### For Cursor & Codex & Open Code
+### Installation
+
+1. **Add the Marketplace**
+   Run this command in Claude Code to add this repository as a plugin source:
+   ```bash
+   /plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering
+
+2. Install the **Skills Install** the context engineering suite:
+   ```bash
+   /plugin install context-engineering@context-engineering-marketplace
+   
+<img width="1014" height="894" alt="Screenshot 2025-12-26 at 12 34 47 PM" src="https://github.com/user-attachments/assets/f79aaf03-fd2d-4c71-a630-7027adeb9bfe" />
+
+### For Cursor & Codex & IDE
 
 Copy skill content into `.rules` or create project-specific Skills folders. The skills provide the context and guidelines that agent needs for effective context engineering and agent design.
 
