@@ -95,14 +95,26 @@ The [examples](examples/) folder contains complete system designs that demonstra
 
 | Example | Description | Skills Applied |
 |---------|-------------|----------------|
+| [digital-brain-skill](examples/digital-brain-skill/) | **NEW** Personal operating system for founders and creators. Complete Claude Code skill with 6 modules, 4 automation scripts | context-fundamentals, context-optimization, memory-systems, tool-design, multi-agent-patterns, evaluation, project-development |
 | [x-to-book-system](examples/x-to-book-system/) | Multi-agent system that monitors X accounts and generates daily synthesized books | multi-agent-patterns, memory-systems, context-optimization, tool-design, evaluation |
 | [llm-as-judge-skills](examples/llm-as-judge-skills/) | Production-ready LLM evaluation tools with TypeScript implementation, 19 passing tests | advanced-evaluation, tool-design, context-fundamentals, evaluation |
-| [book-sft-pipeline](examples/book-sft-pipeline/) | **NEW** Train models to write in any author's style. Includes Gertrude Stein case study with 70% human score on Pangram, $2 total cost | project-development, context-compression, multi-agent-patterns, evaluation |
+| [book-sft-pipeline](examples/book-sft-pipeline/) | Train models to write in any author's style. Includes Gertrude Stein case study with 70% human score on Pangram, $2 total cost | project-development, context-compression, multi-agent-patterns, evaluation |
 
 Each example includes:
 - Complete PRD with architecture decisions
 - Skills mapping showing which concepts informed each decision
 - Implementation guidance
+
+### Digital Brain Skill Example
+
+The [digital-brain-skill](examples/digital-brain-skill/) example is a complete personal operating system demonstrating comprehensive skills application:
+
+- **Progressive Disclosure**: 3-level loading (SKILL.md → MODULE.md → data files)
+- **Module Isolation**: 6 independent modules (identity, content, knowledge, network, operations, agents)
+- **Append-Only Memory**: JSONL files with schema-first lines for agent-friendly parsing
+- **Automation Scripts**: 4 consolidated tools (weekly_review, content_ideas, stale_contacts, idea_to_draft)
+
+Includes detailed traceability in [HOW-SKILLS-BUILT-THIS.md](examples/digital-brain-skill/HOW-SKILLS-BUILT-THIS.md) mapping every architectural decision to specific skill principles.
 
 ### LLM-as-Judge Skills Example
 
